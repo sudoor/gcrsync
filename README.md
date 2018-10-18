@@ -1,4 +1,4 @@
-# gcrsync [![Build Status](https://travis-ci.org/mritd/gcrsync.svg?branch=master)](https://travis-ci.org/mritd/gcrsync)
+# gcrsync [![Build Status](https://travis-ci.org/sudoor/gcrsync.svg?branch=master)](https://travis-ci.org/sudoor/gcrsync)
 
 A docker image sync tool for Google container registry (gcr.io)
 
@@ -8,7 +8,7 @@ A docker image sync tool for Google container registry (gcr.io)
 可自行 build:
 
 ```bash
-go get github.com/mritd/gcrsync
+go get github.com/sudoor/gcrsync
 ```
 
 ## 使用
@@ -69,6 +69,5 @@ Use "gcrsync [command] --help" for more information about a command.
 
 ## 其他说明
 
-该工具并不建议个人使用，因为同步镜像会有很多；我自己同步大约产生了 2T 左右的流量，耗时 3 天左右才算基本
-同步完成；目前我已经将镜像同步到了 Docker Hub 的 `gcrxio` 用户下，可直接使用；这个工具开源目的是为了确保
-`gcrxio` 用户下的镜像安全得到保证；具体更细节说明，可参考[博客文章](https://mritd.me/2018/09/17/google-container-registry-sync/)
+该工具并不建议个人使用，因为同步镜像会有很多；目前镜像正在同步到了 Docker Hub 的 `uwangjia` 用户下，可直接使用；这个工具开源目的是为了确保
+`uwangjia` 用户下的镜像安全得到保证
